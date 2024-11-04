@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Node Server",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/backend/node/app.js"
+      },
+      {
+        "name": "Run Flask Server",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/backend/python/app.py",
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+  
